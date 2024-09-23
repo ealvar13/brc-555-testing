@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setup the .content div to cover the entire viewport */
+.content {
+    position: absolute; 
+    background-color: #800000; 
+    width: 100%; 
+    padding-top: 100%; 
+    overflow: hidden; 
+    backface-visibility: hidden; 
+    -moz-backface-visibility: hidden; 
+    -webkit-backface-visibility: hidden; 
+}
+
+/* Setup the .background-img to cover the entire .content div */
+.background-img {
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    top: 0;
+    left: 0;
+    object-fit: cover; 
+}

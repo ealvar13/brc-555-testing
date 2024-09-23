@@ -1,0 +1,20 @@
+{
+    "version": "0.1.0",
+    "modules": [
+        {
+            "id": "/content/2fc7c925131892ea63008c54d19a5bd66f752c8341faf518b4a13bba41c8f7b8i0",
+            "type": "style",
+            "name": "styles"
+        },
+        {
+            "id": "/content/2a0a5ee9a4c213b4e82750952e8d59cf43f41e8a7301d0598d45f12f31ea48afi0",
+            "type": "script",
+            "name": "loader"
+        }
+    ],
+    "initialize": {
+        "id": "/content/51b2ab08b5a34e416e9aa90000f50e4c036562e3a88595ac9efd3b66de8d18c6i0",
+        "type": "script",
+        "func": "initialize"
+    }
+}
